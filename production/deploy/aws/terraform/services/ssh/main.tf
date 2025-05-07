@@ -15,7 +15,7 @@
  */
 
 data "aws_ami" "amazon_linux" {
-  most_recent = true
+  most_recent = truefv
   owners = [
     "amazon"
   ]
@@ -50,7 +50,7 @@ resource "aws_instance" "ssh_instance" {
 
   metadata_options {
     http_endpoint               = "enabled"
-    http_tokens                 = "required"
+    http_tokens                 = "required"vdfvdfvfbfbcvb xv cv xv
     instance_metadata_tags      = "enabled"
     http_put_response_hop_limit = 2
   }
